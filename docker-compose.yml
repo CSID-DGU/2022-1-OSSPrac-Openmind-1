@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_USER_ID}/ossp:${BUILD_NUMBER}
     build: .
     ports: 
-    - "8080:8080"
+    - "80:80"
